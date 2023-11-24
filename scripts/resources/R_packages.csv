@@ -1,0 +1,69 @@
+Package,Description,Category,Subcategory
+bayesnec,Bayesian no effect concentration models,modelling,Bayesian
+bayesplot,,modelling,Bayesian
+brms,,modelling,Bayesian
+cmdstanr,,modelling,Bayesian
+colorDF,Print DFs in color to terminal,data viz,tables
+conflicted,Handle function name conflicts,programming,
+corrplot,,data,data exploration
+crayon,Colored terminal output,terminal,
+crosstalk,Inter-htmlwidget interactivity,data viz,widgets
+curl,libcurl C library for R,web,
+dagitty,Directed Acyclic Graphs (DAGs),modelling,DAGs
+DHARMa,DHARMa residuals,modelling,validation
+fishflux,Model elemental fluxes in fishes,fish,
+fishualize,Color palettes based on teleost fishes,data viz,color palettes
+furrr,Mapping functions in parallel,programming,parallelization
+future,Parallel and distributed processing,programming,parallelization
+geosphere,Distance between coordinates (and more),spatial,
+GGally,Extends ggplot,data viz,plots
+gganimate,,data viz,plots
+ggdag,Directed Acyclic Graphs (DAGs),modelling,DAGs
+ggh4x,Extends ggplot (better facetting),data viz,plots
+ggpubr,Arrange plots,data viz,plots
+ggsci,Color palettes based on science journals and sci-fi ,data viz,color palettes
+glmmTMB,Powerful frequentist modelling (GLMMs),modelling,frequentist
+glue,Interpretted string literals,strings,
+here,Project-based file referencing,file paths,
+htmltools,Tools for html (der),other,
+htmlwidgets,,other,widgets
+httpgd,Internal plot viewing in vscode ,vscode,
+INLA,,modelling,Bayesian
+inlabru,Spatial modelling with INLA,modelling,Bayesian
+janitor,Data cleaning (incl. clean_names),data,cleaning
+kableExtra,Extends knitr::kable,data viz,tables
+knitr,,other,
+languageserver,,vscode,
+latex2exp,Use latex to write plot labels,data viz,plots
+leaflet,Interactive maps,data viz,maps
+learnr,Interactive tutorials,other,
+lme4,Linear models,modelling,frequentist
+loo,Leave-One-Out cross validation,modelling,Bayesian
+lubridate,Date manipulation,data,manipulation
+modelsummary,Model summary tables,modelling,validation
+ncdf4,Netcdf file handling,data,netcdf
+patchwork,Arrange plots,data viz,plots
+performance,Assess model quality,modelling,validation
+pkgdown,Build R packages,packages,
+plotly,Interactive ggplots,data viz,plots
+quarto,,other,
+reactablefmtr,Interactive tables,data viz,tables
+readxl,Read excel file formats,data,
+remotes,Get packages from non-CRAN repos,other,
+rfishbase,Interface to fishbase,fish,
+rfishprod,Model fish productivity,fish,
+rjags,Interface to JAGS for Bayesian models with MCMC,modelling,Bayesian
+rlang,Interface to STAN for Bayesian models,other,
+roxygen2,Create documentation when building R packages,packages,
+rstan,,modelling,Bayesian
+rstantools,Tools for building R packages which interface with STAN,packages,
+sf,Simple features - a standardised way to encode spatial data,spatial,
+survival,Survival analysis in R,modelling,survival analysis
+tarchetypes,Extends targets (e.g. render quarto documents from pipline),targets,
+targets,,targets,
+terra,Spatial data analysis,spatial,
+testthat,Unit testing,other,
+tidybayes,Visualizations for Bayesian model validation,modelling,validation
+tidyverse,A CORE COLLECTION OF R PACKAGES,core,
+tinytex,Latex for R,other,
+utf8,Unicode text processing,other,
