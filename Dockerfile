@@ -58,5 +58,21 @@ RUN bash ~/.dotfiles/scripts/aliases.sh
 # Install radian R console
 RUN pip3 install -U radian
 
-# Install R packages
+# Install R packages from external file (doesn't cache)
 # RUN Rscript /~/docker-dev/scripts/R/install_packages.R
+
+# Install R packages
+
+# RUN R -e "\
+#   options(repos = 'https://packagemanager.posit.co/cran/2023-11-23/');\
+#   pkg_list_path <- list.files('/~/.dockerdev', 'R_packages.csv', recursive = TRUE, include.dirs = TRUE, full.names = TRUE);\
+#   pkg_list <- read.csv(pkg_list_path, header=TRUE);\
+#   pkg_list[];\
+#   Sys.sleep(10);\
+# "
+
+
+# ==========================================
+#           DEFAULT START COMMAND
+# ==========================================
+CMD cd ~; zsh

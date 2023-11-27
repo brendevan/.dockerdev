@@ -2,7 +2,7 @@
 
 # Find R packages list
 install_script_path <- list.files(
-  "/~/docker-dev", 
+  "/~/.dockerdev", 
   "R_packages.csv", 
   recursive = TRUE, 
   include.dirs = TRUE, 
