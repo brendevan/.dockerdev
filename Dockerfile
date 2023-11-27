@@ -15,17 +15,19 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   # libjpeg-dev \
   # libgdal-dev \
   curl \
+  docker \
   git \
+  nano \
   pandoc \         
   python3-pip \
   zsh
 
-# Copy across scripts need to setup docker-dev
-RUN mkdir ~/docker-dev
-COPY /scripts ~/docker-dev/scripts
+# Copy across scripts needed to setup dockerdev
+RUN mkdir ~/.dockerdev
+COPY /scripts ~/.dockerdev/scripts
 
 # ===========================================
-#                   ZSH
+#                    ZSH
 # ===========================================
 
 # Make ZSH the default shell
@@ -43,11 +45,11 @@ RUN git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTO
 
 
 # ===========================================
-#                 DOTFILES
+#             DOTFILES & ALIASES
 # ===========================================
-RUN git clone https://github.com/bfordAIMS/.dotfiles ~/.dotfiles
+RUN git clone https://github.com/brendevan/.dotfiles ~/.dotfiles
 RUN bash ~/.dotfiles/scripts/link_dotfiles.sh
-
+RUN bash ~/.dotfiles/scripts/aliases.sh
 
 # ===========================================
 #                    R
